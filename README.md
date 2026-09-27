@@ -15,7 +15,7 @@ This project is a multi-page website for the Indie Film Collective. The website 
 
 # Published Website
 
-GitHUb pages URL--
+GitHUb pages URL-- https://alope528.github.io/5-Build/
 
 # AI Use Statement
 
