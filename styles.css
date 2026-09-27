@@ -17,8 +17,8 @@ body {
     margin: 0;
     background-color: #0f172a;
     color: #e2e8f0;
-    display:grid;
-    grid-template-columns:1fr;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 header {
@@ -64,10 +64,12 @@ main {
 }
 
 img {
-    width:100%;
+    width: 100%;
 }
 
-#screenings, #workshops, #collaborations {
+#screenings,
+#workshops,
+#collaborations {
     background-color: #1e293b;
     padding: 1rem;
     border-left: 4px solid #38bdf8;
@@ -80,16 +82,17 @@ aside {
 }
 
 a {
-    display:block;
-    background-color:#020617;
-    color:#e2e8f0;
-    padding:1rem 2rem;
-    text-decoration:none;
-    text-align:center;
+    display: block;
+    background-color: #020617;
+    color: #e2e8f0;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    text-align: center;
 }
+
 a:hover {
-    color:#020617;
-    background-color:#e2e8f0;
+    color: #020617;
+    background-color: #e2e8f0;
 }
 
 footer {
@@ -104,18 +107,24 @@ footer {
     body {
         grid-template-columns: 1fr 300px;
     }
-    header, nav, footer {
+
+    header,
+    nav,
+    footer {
         grid-column: 1/-1;
     }
+
     nav ul {
-        display:flex;
-        justify-content:space-around;
+        display: flex;
+        justify-content: space-around;
     }
+
     .card-row {
-        display:flex;
+        display: flex;
     }
+
     .card-row section {
-        width:30%;
+        width: 30%;
     }
 }
 
